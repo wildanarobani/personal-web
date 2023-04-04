@@ -1,0 +1,136 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: cursive;
+	background: linear-gradient(to bottom, #b1f2fd, #58e3ff , #edfdff);
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav ul li {
+	margin-right: 20px;
+}
+
+nav ul li a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: #000000;
+	text-decoration: underline;
+	background-color: #fff;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: calc(100vh - 100px);
+}
+
+section.profile {
+	display: flex;
+	align-items: center;
+}
+
+section.profile img {
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+	border-radius: 70%;
+	margin-left: 200px;
+	margin-right: 50px;
+	margin-bottom: 70px;
+	margin-top: 100px;
+}
+
+section.profile .profile-description {
+	flex: 1;
+}
+
+section.profile h1 {
+	font-size: 48px;
+	margin-left: 100px;
+	margin-top: 200;
+}
+
+section.profile h2 {
+	font-size: 24px;
+	margin-left: 100px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+section.profile p {
+	font-size: 15px;
+	margin-left: 100px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.contact-me {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 0px;
+}
+  
+.contact-me p {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+  
+
+.social-media {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+	margin-left: 200px;
+}
+  
+.btn-facebook {
+	background-color: #3b5998;
+	color: white;
+}
+  
+.btn-twitter {
+	background-color: #1da1f2;
+	color: white;
+}
+
+.btn-instagram {
+	background-color: #ff2ea8;
+	color: white;
+}
+  
+.btn-facebook, .btn-twitter, .btn-instagram {
+	padding: 10px 20px;
+	border: none;
+	border-radius: 10px;
+	margin: 0 10px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	position: relative;
+}
